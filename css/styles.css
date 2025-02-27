@@ -535,6 +535,11 @@ span.logo-footer {
   min-width: 165px;
   height: 40px;
   color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
 
   background-color: #4d5ae5;
   margin-left: 24px;
