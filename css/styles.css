@@ -709,6 +709,7 @@ input.footer-form-email:focus {
   border: 1px solid #404bbf;
 }
 .form-check {
+  margin-bottom: 24px;
 }
 .form-check-input {
 }
@@ -717,9 +718,9 @@ input.footer-form-email:focus {
 .form-check-text {
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 4%;
-  color: #2e2f4266;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 .form-check-link {
   font-family: Roboto;
@@ -759,7 +760,7 @@ input.footer-form-email:focus {
   letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
-
+  cursor: pointer;
   margin: 24px auto;
   min-width: 169px;
   height: 56px;
