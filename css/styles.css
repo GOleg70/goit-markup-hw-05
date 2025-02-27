@@ -496,12 +496,13 @@ span.logo-footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
 }
 .footer-form-input {
   display: flex;
+  gap: 24px;
 }
 .footer-form-input-label {
 }
@@ -510,8 +511,12 @@ span.logo-footer {
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  background: #2e2f42;
-
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  /* background: #2e2f42; */
+  background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding-left: 16px;
   outline: none;
@@ -527,7 +532,7 @@ span.logo-footer {
   margin-left: 24px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   color: #ffffff;
 
