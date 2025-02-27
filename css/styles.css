@@ -503,6 +503,8 @@ span.logo-footer {
 .footer-form-input {
   display: flex;
 }
+.footer-form-input-label {
+}
 .footer-form-email {
   border: 1px solid #ffffff;
   border-radius: 4px;
