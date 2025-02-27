@@ -675,7 +675,7 @@ input.footer-form-email:focus {
 .form-input:focus {
   border-color: #4d5ae5;
 }
-.form-input:hover + .form-input-icon {
+.form-input:focus + .form-input-icon {
   fill: #4d5ae5;
 }
 .form-input::placeholder {
